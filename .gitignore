@@ -1,0 +1,21 @@
+# Ignore below directories
+node_modules/
+.vscode/
+*/.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables file
+.env
+
+# Ignore build directory
+/build/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
