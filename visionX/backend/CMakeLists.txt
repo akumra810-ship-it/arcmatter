@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(visionX)
+set(CMAKE_CXX_STANDARD 17)
+find_package(OpenCV REQUIRED)
+find_package(pybind11 REQUIRED)
+pybind11_add_module(visionx_engine visionx_engine.cpp)
+target_link_libraries(visionx_engine PRIVATE ${OpenCV_LIBS})

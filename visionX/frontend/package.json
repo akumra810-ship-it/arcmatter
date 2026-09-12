@@ -1,0 +1,19 @@
+{
+  "name": "visionx-video",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "konva": "^9.3.6",
+    "react-konva": "^18.2.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.2.0"
+  }
+}
